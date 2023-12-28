@@ -18,17 +18,17 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects that I've recently created.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="M2 InstaCount"
+              description="A web application with a smooth interface that allows for easy, real-time counting of physical inventory for your Magento 2 store. M2 InstaCount allows users to find items using bar codes or SKU numbers and provides users with an image of the item being counted for accuracy while also showing other relevant information. M2 InstaCount enables discrepancy reporting and works with Magento’s data export functionality for easy resolution of discrepancies."
+              ghLink="https://github.com/cburl1/mrti"
+              // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Parki"
+              description="Developed a full-stack web application dedicated to providing skiers and snowboarders with the latest updates on terrain parks. Utilizing React, Python, Flask, SQLite, and session-based authentication, the platform offers real-time information, enhancing the winter sports experience. The application supports user interactions and provides a better, more tailored, format for this niche of information."
+              ghLink="https://github.com/cburl1/parki"
+              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
@@ -47,10 +47,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Blockbuster Employee Portal"
+              description="Engineered a comprehensive full-stack web application that would streamline operations for a Blockbuster employees. Features include the ability to view, modify, and add new movies, rentals, and client profiles. Built using React, Python with Flask and SQLite, the portal enhances operational efficiency and user experience for staff."
+              ghLink="https://github.com/cburl1/music-CLI"
+              // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
@@ -58,10 +58,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Music Player and Storage"
+              description="Created a command-line interface application with Python and SQLAlchemy for efficient music storage and playback. This tool not only stores a user's music library but also allows for seamless playback in the browser, leveraging advanced web technologies for a user-friendly audio experience."
+              ghLink="https://github.com/cburl1/blockbuster-employee-portal"
+              // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
@@ -69,9 +69,9 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Seasonal Produce Educator"
+              description="Designed a Vanilla JavaScript web application focused on educating users about the optimal consumption times for various produce. The application, developed with an emphasis on simplicity and user engagement, provides valuable insights into seasonal produce, promoting healthier eating habits."
+              ghLink="https://github.com/cburl1/seasonal-produce-educator"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
@@ -80,10 +80,9 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Ski Shop Storefront"
+              description="Crafted an online storefront for a ski shop using ReactJS, showcasing a range of skiing products. The site features an intuitive design, easy navigation, and a seamless shopping experience, enhancing customer engagement and boosting online sales."
+              ghLink="https://github.com/cburl1/skishop-react-frontend"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
