@@ -26,7 +26,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="M2 InstaCount"
-              description="A web application with a smooth interface that allows for easy, real-time counting of physical inventory for your Magento 2 store. M2 InstaCount allows users to find items using bar codes or SKU numbers and provides users with an image of the item being counted for accuracy while also showing other relevant information. M2 InstaCount enables discrepancy reporting and works with Magento’s data export functionality for easy resolution of discrepancies."
+              description="Crafted M2 InstaCount, a responsive web application for Magento 2 stores, using React, Python with Flask, PostgreSQL, and JWT for secure authentication. This tool simplifies inventory counting through real-time tracking, allowing users to identify items via barcodes or SKUs and view images for verification. The app also supports discrepancy reports and integrates with Magento’s export functions, ensuring efficient inventory reconciliation."
               ghLink="https://github.com/cburl1/mrti"
               // demoLink="https://chatify-49.web.app/"
             />
