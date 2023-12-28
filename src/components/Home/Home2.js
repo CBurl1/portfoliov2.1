@@ -4,7 +4,6 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -19,19 +18,18 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I fell in love with programming and have been hooked on using code to solve problems for businesses ever since.
               <br />
-              <br />I am proficent working with many tools including
+              <br />I am proficent working with a large amount of tech including
               <i>
-                <b className="purple"> Python, Javascript, Flask, and PostgreSQL. </b>
+                <b className="purple"> Python, Javascript, Flask, JWT and PostgreSQL. </b>
               </i>
               <br />
               <br />
               I am interested in building new&nbsp;
               <i>
                 <b className="purple">Web Applications</b>. Specifically,
-                tech relating to{" "}
+                those relating to{" "}
                 <b className="purple">
                   E-commerce.
                 </b>
