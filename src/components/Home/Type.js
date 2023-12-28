@@ -8,7 +8,6 @@ function Type() {
         strings: [
           "M2 InstaCount Owner/Creator",
           "Full-Stack Software Developer",
-          "Freelancer",
           "Problem Solver"
         ],
         autoStart: true,
