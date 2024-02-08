@@ -18,7 +18,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and have been hooked on using code to solve problems for businesses ever since.
+              I fell in love with programming and have been hooked on using code to solve real-world problems ever since.
               <br />
               <br />I am proficent working with a large amount of tech including
               <i>
@@ -31,7 +31,7 @@ function Home2() {
                 <b className="purple">Web Applications</b>. Specifically,
                 those relating to{" "}
                 <b className="purple">
-                  E-commerce.
+                  E-commerce and AI.
                 </b>
               </i>
               <br />
