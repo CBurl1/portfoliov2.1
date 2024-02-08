@@ -26,7 +26,7 @@ function Projects() {
               imgPath={m2}
               isBlog={false}
               title="M2 InstaCount"
-              description="Crafted M2 InstaCount, a responsive web application for Magento 2 stores, using React, Python with Flask, PostgreSQL, and JWT for secure authentication. This tool simplifies inventory counting through real-time tracking, allowing users to identify items via barcodes or SKUs and view images for verification. The app also supports discrepancy reports and integrates with Magento’s export functions, ensuring efficient inventory reconciliation."
+              description="Crafted M2 InstaCount for Magento 2 stores using React, Flask, PostgreSQL, and JWT. This app simplifies inventory with real-time tracking, barcode/SKU identification, image verification, discrepancy reports, and Magento export integration."
               ghLink="https://github.com/cburl1/mrti"
               // demoLink="https://chatify-49.web.app/"
             />
@@ -37,7 +37,7 @@ function Projects() {
               imgPath={parkiImage}
               isBlog={false}
               title="Parki"
-              description="Developed a full-stack web application dedicated to providing skiers and snowboarders with the latest updates on terrain parks. Utilizing React, Python, Flask, SQLite, and session-based authentication, the platform offers real-time information, enhancing the winter sports experience. The application supports user interactions and provides a better, more tailored, format for this niche of information."
+              description="Developed a web app for skiers/snowboarders with updates on terrain parks using React, Python, Flask, SQLite. Offers real-time info and user interaction, enhancing the winter sports experience with a tailored format for niche information."
               ghLink="https://github.com/cburl1/parki"
               // demoLink="https://blogs.soumya-jit.tech/"
             />
@@ -48,7 +48,7 @@ function Projects() {
               imgPath={block}
               isBlog={false}
               title="Blockbuster Employee Portal"
-              description="Engineered a comprehensive full-stack web application that would streamline operations for a Blockbuster employees. Features include the ability to view, modify, and add new movies, rentals, and client profiles. Built using React, Python with Flask and SQLite, the portal enhances operational efficiency and user experience for staff."
+              description="Engineered a Blockbuster operations web app with React, Flask, SQLite. Enables viewing, modifying movies, rentals, and profiles, boosting operational efficiency and staff user experience."
               ghLink="https://github.com/cburl1/music-CLI"
               // demoLink="https://editor.soumya-jit.tech/"              
             />
@@ -59,7 +59,7 @@ function Projects() {
               imgPath={musicPlayer}
               isBlog={false}
               title="Music Player and Storage"
-              description="Created a command-line interface application with Python and SQLAlchemy for efficient music storage and playback. This tool not only stores a user's music library but also allows for seamless playback in the browser, leveraging advanced web technologies for a user-friendly audio experience."
+              description="Created a Python and SQLAlchemy CLI app for music storage and playback. Stores music libraries and enables seamless browser playback, leveraging web technologies for a user-friendly audio experience."
               ghLink="https://github.com/cburl1/blockbuster-employee-portal"
               // demoLink="https://plant49-ai.herokuapp.com/"
             />
@@ -70,7 +70,7 @@ function Projects() {
               imgPath={produce}
               isBlog={false}
               title="Seasonal Produce Educator"
-              description="Designed a Vanilla JavaScript web application focused on educating users about the optimal consumption times for various produce. The application, developed with an emphasis on simplicity and user engagement, provides valuable insights into seasonal produce, promoting healthier eating habits."
+              description="Designed a Vanilla JavaScript app on optimal produce consumption times. Emphasizes simplicity, user engagement, and provides insights into seasonal produce, promoting healthier eating habits."
               ghLink="https://github.com/cburl1/seasonal-produce-educator"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
@@ -81,7 +81,7 @@ function Projects() {
               imgPath={ski}
               isBlog={false}
               title="Ski Shop Storefront"
-              description="Crafted an online storefront for a ski shop using ReactJS, showcasing a range of skiing products. The site features an intuitive design, easy navigation, and a seamless shopping experience, enhancing customer engagement and boosting online sales."
+              description="Crafted a React online storefront for a ski shop. Showcases skiing products with intuitive design, easy navigation, and a seamless shopping experience, enhancing customer engagement and sales."
               ghLink="https://github.com/cburl1/skishop-react-frontend"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
