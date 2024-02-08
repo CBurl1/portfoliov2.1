@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import musicPlayer from "../../Assets/Projects/music-player.jpg";
+import parkiImage from "../../Assets/Projects/parki_image.jpeg";
+import ski from "../../Assets/Projects/ski_shop_image.jpeg";
+import produce from "../../Assets/Projects/produce_wall.jpg";
+import block from "../../Assets/Projects/blockbuster-project-image.jpeg";
+import m2 from "../../Assets/Projects/m2-instacount.png";
 
 function Projects() {
   return (
@@ -23,7 +23,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={m2}
               isBlog={false}
               title="M2 InstaCount"
               description="Crafted M2 InstaCount, a responsive web application for Magento 2 stores, using React, Python with Flask, PostgreSQL, and JWT for secure authentication. This tool simplifies inventory counting through real-time tracking, allowing users to identify items via barcodes or SKUs and view images for verification. The app also supports discrepancy reports and integrates with Magento’s export functions, ensuring efficient inventory reconciliation."
@@ -34,7 +34,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={parkiImage}
               isBlog={false}
               title="Parki"
               description="Developed a full-stack web application dedicated to providing skiers and snowboarders with the latest updates on terrain parks. Utilizing React, Python, Flask, SQLite, and session-based authentication, the platform offers real-time information, enhancing the winter sports experience. The application supports user interactions and provides a better, more tailored, format for this niche of information."
@@ -45,7 +45,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={block}
               isBlog={false}
               title="Blockbuster Employee Portal"
               description="Engineered a comprehensive full-stack web application that would streamline operations for a Blockbuster employees. Features include the ability to view, modify, and add new movies, rentals, and client profiles. Built using React, Python with Flask and SQLite, the portal enhances operational efficiency and user experience for staff."
@@ -56,7 +56,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={musicPlayer}
               isBlog={false}
               title="Music Player and Storage"
               description="Created a command-line interface application with Python and SQLAlchemy for efficient music storage and playback. This tool not only stores a user's music library but also allows for seamless playback in the browser, leveraging advanced web technologies for a user-friendly audio experience."
@@ -67,7 +67,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={produce}
               isBlog={false}
               title="Seasonal Produce Educator"
               description="Designed a Vanilla JavaScript web application focused on educating users about the optimal consumption times for various produce. The application, developed with an emphasis on simplicity and user engagement, provides valuable insights into seasonal produce, promoting healthier eating habits."
@@ -78,7 +78,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={ski}
               isBlog={false}
               title="Ski Shop Storefront"
               description="Crafted an online storefront for a ski shop using ReactJS, showcasing a range of skiing products. The site features an intuitive design, easy navigation, and a seamless shopping experience, enhancing customer engagement and boosting online sales."
