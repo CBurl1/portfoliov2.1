@@ -20,9 +20,10 @@ function Home2() {
               About <span className="purple"> Me </span>
             </h1>
             <p className="home-about-body">
-              I'm a lifelong competitor and athlete who now brings those skills to the world as developer
-              <br />
-              <br />I am proficent working with a large amount of tech including
+            Skilled Full-Stack Developer with a knack for turning complex challenges into scalable web solutions. Poised to release a transformative Magento 2 extension designed to revolutionize inventory management. Passionately pursuing new technological advancements to drive innovation.
+            
+            <br />
+            <br />I am proficent working with a large amount of tech including
               <i>
                 <b className="purple"> Python, Javascript, Flask, JWT and PostgreSQL. </b>
               </i>
