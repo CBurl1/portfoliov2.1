@@ -7,10 +7,12 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import home from "./Home.css"
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
+          <div class="horizontal-line"></div>
       <Container>
         <Row>
           <Col md={8} className="home-about-description">

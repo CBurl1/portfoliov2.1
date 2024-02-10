@@ -1,0 +1,9 @@
+.horizontal-line {
+    width: 80%; /* 66.67% of the container's width */
+    height: 2px; /* or however thick you want the line to be */
+    background-color: #c770f0; /* the color you want for the line */
+    position: relative; /* if you want to place it in a specific place in the section */
+    left: 10%; /* to center it horizontally */
+    transform: translateY(-50%); /* to accurately center it vertically */
+  }
+  
