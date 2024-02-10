@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import musicPlayer from "../../Assets/Projects/music-player.jpg";
-import parkiImage from "../../Assets/Projects/parki_image.jpeg";
-import ski from "../../Assets/Projects/ski_shop_image.jpeg";
-import produce from "../../Assets/Projects/produce_wall.jpg";
-import block from "../../Assets/Projects/blockbuster-project-image.jpeg";
+import musicPlayer from "../../Assets/Projects/music-player.png";
+import parkiImage from "../../Assets/Projects/parki_image.png";
+import ski from "../../Assets/Projects/ski_shop_image.png";
+import produce from "../../Assets/Projects/produce_wall.png";
+import block from "../../Assets/Projects/blockbuster-project-image.png";
 import m2 from "../../Assets/Projects/m2-instacount.png";
 
 function Projects() {
@@ -61,7 +61,6 @@ function Projects() {
               title="Music Player and Storage"
               description="Created a Python and SQLAlchemy CLI app for music storage and playback. Stores music libraries and enables seamless browser playback, leveraging web technologies for a user-friendly audio experience."
               ghLink="https://github.com/cburl1/blockbuster-employee-portal"
-              // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
@@ -72,7 +71,6 @@ function Projects() {
               title="Seasonal Produce Educator"
               description="Designed a Vanilla JavaScript app on optimal produce consumption times. Emphasizes simplicity, user engagement, and provides insights into seasonal produce, promoting healthier eating habits."
               ghLink="https://github.com/cburl1/seasonal-produce-educator"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
@@ -83,7 +81,6 @@ function Projects() {
               title="Ski Shop Storefront"
               description="Crafted a React online storefront for a ski shop. Showcases skiing products with intuitive design, easy navigation, and a seamless shopping experience, enhancing customer engagement and sales."
               ghLink="https://github.com/cburl1/skishop-react-frontend"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
         </Row>

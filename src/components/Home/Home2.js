@@ -15,10 +15,10 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              Let me <span className="purple"> Introduce </span> Myself
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and have been hooked on using code to solve real-world problems ever since.
+              I'm a lifelong competitor and athlete who now brings those skills to the world as developer
               <br />
               <br />I am proficent working with a large amount of tech including
               <i>
@@ -72,7 +72,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/itsjustcb1"
+                  href="https://www.instagram.com/collin.burleigh"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
