@@ -7,7 +7,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import home from "./Home.css"
+import "./Home.css"
 
 function Home2() {
   return (
