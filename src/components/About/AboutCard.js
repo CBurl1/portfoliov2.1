@@ -24,8 +24,7 @@ function AboutCard() {
           <li className="about-activity">
             <strong>Global Exploration and Personal Growth:</strong>
             <br />
-              My adventures have taken me from backpacking through the diverse landscapes of Costa Rica and Panama to embracing new cultures, expanding my worldview alongside my closest friends.
-          </li>
+            My adventures have taken me to over 20 countries, from the natural beauty of Costa Rica to the urban sophistication of Singapore, and across the diverse landscapes of Western Europe. These journeys, undertaken with family and friends, have enriched my life, expanding my horizons and deepening my appreciation for the world's vast cultural and geographical diversity.          </li>
             <br />
             <li className="about-activity">
             <strong>Adventure on the Slopes - Skiing as My New Frontier:</strong>
