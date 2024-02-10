@@ -12,30 +12,38 @@ function AboutCard() {
             from <span className="purple"> Newmarket, New Hampshire.</span>
             <br />
             <br />
-            I am the owner and creator of M2 InstaCount. I freelance as well.
+            As a <span className="purple">Full-Stack Developer</span> with training from <span className="purple">The Flatiron School</span>, my journey to software development was unconventional yet profoundly transformative. Prior to my coding career, I pursued a lifelong dream of becoming a professional baseball player. Despite the challenges and ultimate redirection of this dream, I garnered invaluable soft skills and a relentless drive from two decades of team sports. These experiences instilled in me the principles of leadership, teamwork, sacrifice, and perseverance.
             <br />
             <br />
-            I graduated from The Flatiron School in early 2023.
+            Transitioning from a focus on athletics to academia, I initially continued working on a business degree, only to discover my true passion lay within the realms of coding, captivated by its promise of freedom and creativity. This realization prompted a pivotal decision to leave college and enroll in a coding bootcamp, a choice that has since filled my career with enthusiasm and fulfillment.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            <span className="purple">Beyond my professional endeavors, I am deeply passionate about:</span>
           </p>
           <ul>
+          <li className="about-activity">
+            <strong>Global Exploration and Personal Growth:</strong>
+            <br />
+              My adventures have taken me from backpacking through the diverse landscapes of Costa Rica and Panama to embracing new cultures, expanding my worldview alongside my closest friends.
+          </li>
+            <br />
             <li className="about-activity">
-              <ImPointRight /> Travel
+            <strong>Adventure on the Slopes - Skiing as My New Frontier:</strong>
+            <br />
+            Discovering skiing has opened a new chapter of athletic pursuit, where challenging terrains like Corbet's Couloir at Jackson Hole provide not just thrill but a profound connection with nature, friends, and family.
             </li>
+            <br />
             <li className="about-activity">
-              <ImPointRight /> Skiing
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Coaching Baseball
+            <strong>Community Contribution through Coaching:</strong> 
+            <br />
+            Serving as an assistant coach for my former high school's baseball team allows me to give back to the community that shaped my early years. I strive to inspire confidence and impart lasting wisdom to young athletes, continuing the legacy of mentorship that was pivotal in my own development.
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p className = "purple">
             "When looking for ideas, start with problems"{" "}
           </p>
-          <footer className="blockquote-footer">Collin</footer>
+          <footer className="purple">-CB</footer>
         </blockquote>
       </Card.Body>
     </Card>
