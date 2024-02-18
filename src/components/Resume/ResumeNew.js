@@ -15,6 +15,7 @@ function ResumeNew() {
     setWidth(window.innerWidth);
   }, []);
 
+  // fix later
   return (
     <div>
       <Container fluid className="resume-section">
