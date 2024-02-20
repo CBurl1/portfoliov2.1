@@ -12,8 +12,32 @@ function About() {
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
+          
+          {/* Left Column for Techstack and Toolstack */}
           <Col
-            md={7}
+            md={6}
+            style={{
+              justifyContent: "center",
+              paddingTop: "30px",
+              paddingBottom: "50px",
+            }}
+          >
+            {/* Professional Skillset */}
+            <h1 className="project-heading">
+              Professional <strong className="purple">Skillset </strong>
+            </h1>
+            <Techstack />
+            
+            {/* Tools I Use */}
+            <h1 className="project-heading" style={{ paddingTop: "50px" }}>
+              <strong className="purple">Tools</strong> I use
+            </h1>
+            <Toolstack />
+          </Col>
+
+          {/* Right Column for About Me */}
+          <Col
+            md={6}
             style={{
               justifyContent: "center",
               paddingTop: "30px",
@@ -25,17 +49,8 @@ function About() {
             </h1>
             <Aboutcard />
           </Col>
+
         </Row>
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
-        </h1>
-
-        <Techstack />
-
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
-        </h1>
-        <Toolstack />
 
         <Github />
       </Container>
