@@ -15,10 +15,10 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Recent <strong className="purple">Work </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects that I've recently created.
+          Check out some of the applications I've made lately
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
