@@ -2,6 +2,9 @@
 
 Welcome to the source code of my personal portfolio website! This site is a representation of my skills, projects, and experiences in the tech industry, built with a focus on modern web development practices and design principles.
 
+![Portfolio Image](Images/portfoliov2.1-img.png)
+
+
 ## Features
 
 - **Responsive Design**: Ensures the website looks great on all devices.
