@@ -36,7 +36,7 @@ function Projects() {
             <ProjectCard
               imgPath={parkiImage}
               isBlog={false}
-              title="Parki"
+              title="Parki - Ski/Snowboard App"
               description="Developed a web app for skiers/snowboarders with updates on terrain parks using React, Python, Flask, SQLite. Offers real-time info and user interaction, enhancing the winter sports experience with a tailored format for niche information."
               ghLink="https://github.com/cburl1/parki"
               // demoLink="https://blogs.soumya-jit.tech/"
