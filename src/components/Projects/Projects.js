@@ -27,6 +27,7 @@ function Projects() {
               isBlog={false}
               title="M2 InstaCount"
               description="Crafted M2 InstaCount for Magento 2 stores using React, Flask, PostgreSQL, and JWT. This app simplifies inventory with real-time tracking, barcode/SKU identification, image verification, discrepancy reports, and Magento export integration."
+              showGitHub = {false} // option to not show github
               // ghLink="https://github.com/cburl1/mrti"
               // demoLink="https://chatify-49.web.app/"
             />
