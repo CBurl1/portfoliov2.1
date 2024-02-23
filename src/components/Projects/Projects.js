@@ -50,7 +50,7 @@ function Projects() {
               isBlog={false}
               title="Blockbuster Employee Portal"
               description="Engineered a Blockbuster operations web app with React, Flask, SQLite. Enables viewing, modifying movies, rentals, and profiles, boosting operational efficiency and staff user experience."
-              ghLink="https://github.com/cburl1/music-CLI"
+              ghLink="https://github.com/cburl1/blockbuster-employee-portal"
               // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
@@ -61,7 +61,7 @@ function Projects() {
               isBlog={false}
               title="Music Player and Storage"
               description="Created a Python and SQLAlchemy CLI app for music storage and playback. Stores music libraries and enables seamless browser playback, leveraging web technologies for a user-friendly audio experience."
-              ghLink="https://github.com/cburl1/blockbuster-employee-portal"
+              ghLink= "https://github.com/cburl1/music-CLI"
             />
           </Col>
 
