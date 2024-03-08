@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import musicPlayer from "../../Assets/Projects/music-player.png";
 import parkiImage from "../../Assets/Projects/parki_image.png";
 import ski from "../../Assets/Projects/ski_shop_image.png";
-import produce from "../../Assets/Projects/produce_wall.png";
+import journal from "../../Assets/Projects/wellness-journal.png";
 import block from "../../Assets/Projects/blockbuster-project-image.png";
 import m2 from "../../Assets/Projects/m2-instacount.png";
 
@@ -22,6 +22,19 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={journal}
+              isBlog={false}
+              title="AI Powered Voice Wellness Journal"
+              description="Funded by an OpenHome grant, this application is powered by a LLM and has a conversation with the user relating to their wellness. The journal adapts over time in order to ask better questions. The journal is sent to the user via text with the Twilio API. The journal will run off of OpenHome's smart speaker once the hardware is developed. Built with Python."
+              showGitHub = {false} // option to not show github
+              demoLink="https://www.loom.com/share/a29cbce183324c6fa0dc31b8ea0389e8"
+
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+
             <ProjectCard
               imgPath={m2}
               isBlog={false}
@@ -62,16 +75,6 @@ function Projects() {
               title="Music Player and Storage"
               description="Created a Python and SQLAlchemy CLI app for music storage and playback. Stores music libraries and enables seamless browser playback, leveraging web technologies for a user-friendly audio experience."
               ghLink= "https://github.com/cburl1/music-CLI"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={produce}
-              isBlog={false}
-              title="Seasonal Produce Educator"
-              description="Designed a Vanilla JavaScript app on optimal produce consumption times. Emphasizes simplicity, user engagement, and provides insights into seasonal produce, promoting healthier eating habits."
-              ghLink="https://github.com/cburl1/seasonal-produce-educator"
             />
           </Col>
 
