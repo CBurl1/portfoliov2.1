@@ -45,48 +45,6 @@ function Projects() {
               // demoLink="https://chatify-49.web.app/"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={parkiImage}
-              isBlog={false}
-              title="Parki - Ski/Snowboard App"
-              description="Developed a web app for skiers/snowboarders with updates on terrain parks using React, Python, Flask, SQLite. Offers real-time info and user interaction, enhancing the winter sports experience with a tailored format for niche information."
-              ghLink="https://github.com/cburl1/parki"
-              // demoLink="https://blogs.soumya-jit.tech/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={block}
-              isBlog={false}
-              title="Blockbuster Employee Portal"
-              description="Engineered a Blockbuster operations web app with React, Flask, SQLite. Enables viewing, modifying movies, rentals, and profiles, boosting operational efficiency and staff user experience."
-              ghLink="https://github.com/cburl1/blockbuster-employee-portal"
-              // demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={musicPlayer}
-              isBlog={false}
-              title="Music Player and Storage"
-              description="Created a Python and SQLAlchemy CLI app for music storage and playback. Stores music libraries and enables seamless browser playback, leveraging web technologies for a user-friendly audio experience."
-              ghLink= "https://github.com/cburl1/music-CLI"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ski}
-              isBlog={false}
-              title="Ski Shop Storefront"
-              description="Crafted a React online storefront for a ski shop. Showcases skiing products with intuitive design, easy navigation, and a seamless shopping experience, enhancing customer engagement and sales."
-              ghLink="https://github.com/cburl1/skishop-react-frontend"
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
