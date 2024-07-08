@@ -10,7 +10,7 @@ function AboutCard() {
             I'm <span className="purple">Collin Burleigh</span> from <span className="purple">Newmarket, New Hampshire.</span>
             <br />
             <br />
-            As a <span className="purple">Full-Stack Developer</span> trained at <span className="purple">The Flatiron School</span>, my path to tech was unique, shaped by a dream of professional baseball. This journey taught me leadership, teamwork, and perseverance.
+            As a <span className="purple">Full-Stack Developer</span> trained at <span className="purple">The Flatiron School</span>, my path to tech was unique, shaped by a dream of playing baseball. This journey taught me leadership, teamwork, and perseverance.
             <br />
             <br />
             After shifting from sports to tech, I found my passion in coding. It offered a blend of creativity and problem-solving that I hadn't found elsewhere. This led me to pivot my career towards software development, embracing the challenges and opportunities it presents.

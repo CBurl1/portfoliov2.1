@@ -22,11 +22,11 @@ function Home2() {
             </h1>
             <p className="home-about-body">
             Skilled <span className="purple"> Full-Stack Developer </span>
-             and certified <span className="purple">SCRUM</span> master with a knack for turning complex challenges into scalable web solutions. Experience crafting AI driven applications. Poised to release a transformative Magento 2 extension designed to revolutionize Magento's inventory management process. Passionately pursuing new technological advancements to drive innovation.
+             and certified <span className="purple">SCRUM</span> master with a knack for turning complex challenges into scalable web solutions. Experience in working with LLMS. The solo developer behind M2 InstaCount - a web app that transforms inventory management and receiving processes for Magento 2 store owners. Passionately pursuing new technological advancements to drive innovation.
             <br />
             <br />I am proficient working with a large amount of tech including
               <i>
-                <b className="purple"> Python, Javascript, Flask, JWT and PostgreSQL. </b>
+                <b className="purple"> Python, Javascript, Typescript, Flask, MongoDB and various SQL databases. </b>
               </i>
               <br />
               <br />
