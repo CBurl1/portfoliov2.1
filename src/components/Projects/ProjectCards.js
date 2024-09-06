@@ -25,7 +25,7 @@ function ProjectCards(props) {
         {/* Space between buttons if both are rendered */}
         {props.showGitHub !== false && props.demoLink && !props.isBlog && " "}
         
-        {/* Render Demo button only if it's not a Blog and demoLink is provided */}
+        {/* Render Demo/Live button with custom text */}
         {!props.isBlog && props.demoLink && (
           <Button
             variant="primary"
@@ -34,7 +34,7 @@ function ProjectCards(props) {
             style={{ marginLeft: props.showGitHub !== false ? "10px" : "0" }}
           >
             <CgWebsite /> &nbsp;
-            {"Demo"}
+            {props.buttonText || "Demo"}
           </Button>
         )}
       </Card.Body>
