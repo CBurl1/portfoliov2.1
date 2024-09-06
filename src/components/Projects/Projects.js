@@ -30,17 +30,16 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-
             <ProjectCard
               imgPath={m2}
               isBlog={false}
-              title="M2 InstaCount"
-              description="Crafted M2 InstaCount for Magento 2 stores using React, Flask, PostgreSQL, and JWT. This app simplifies inventory with real-time tracking, barcode/SKU identification, image verification, discrepancy reports, and Magento export integration."
-              showGitHub = {false} // option to not show github
-              // ghLink="https://github.com/cburl1/mrti"
+              title="M2 InstaCount – Magento 2 Inventory Management"
+              description="My first project as a solo developer, M2 InstaCount is a web app built with React, Flask, PostgreSQL, and JWT to streamline inventory management for Magento 2 stores. The app enables real-time tracking of stock, barcode scanning, and SKU identification, allowing store owners to compare actual versus expected inventory levels. With advanced error handling to manage discrepancies and a receiving tool that generates CSVs for supplier comparisons, M2 InstaCount provides an efficient and accurate solution to inventory management challenges."
+              showGitHub={false}
               demoLink="https://m2instacount.com"
             />
           </Col>
+
         </Row>
       </Container>
     </Container>
