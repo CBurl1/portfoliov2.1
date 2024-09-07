@@ -26,7 +26,7 @@ function Home2() {
             <br />
             <br />I am proficient working with a large amount of tech including
               <i>
-                <b className="purple"> Python, Javascript, Typescript, Flask, MongoDB and various SQL databases. </b>
+                <b className="purple"> Python, Javascript, Flask, MongoDB and various SQL databases. </b>
               </i>
               <br />
               <br />
