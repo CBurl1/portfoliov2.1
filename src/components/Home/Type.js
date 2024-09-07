@@ -7,7 +7,7 @@ function Type() {
       options={{
         strings: [
           "Full-Stack Software Developer",
-          "Creator of M2 InstaCount",
+          "Solo Developer Behind M2 InstaCount",
           "Problem Solver"
         ],
         autoStart: true,
