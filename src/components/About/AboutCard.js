@@ -7,7 +7,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "left" }}>
-            I'm <span className="purple">Collin Burleigh</span> from <span className="purple">Newmarket, New Hampshire.</span>
+            I'm <span className="purple">Collin Burleigh</span> I live in <span className="purple">Salt Lake City, Utah.</span>
             <br />
             <br />
             As a <span className="purple">Full-Stack Developer</span> trained at <span className="purple">The Flatiron School</span>, my path to tech was unique, shaped by a dream of playing baseball. This journey taught me leadership, teamwork, and perseverance.
