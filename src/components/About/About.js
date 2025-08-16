@@ -11,45 +11,51 @@ function About() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
+        {/* Skills and Tools Section - Side by Side at Top */}
+        <Row style={{ justifyContent: "center", padding: "20px 0", marginBottom: "40px" }}>
           
-          {/* Left Column for Techstack and Toolstack */}
+          {/* Left Column for Professional Skillset */}
           <Col
-            md={6}
+            lg={6}
+            md={12}
             style={{
               justifyContent: "center",
-              paddingTop: "30px",
-              paddingBottom: "50px",
+              paddingTop: "20px",
+              paddingBottom: "30px",
             }}
           >
-            {/* Professional Skillset */}
-            <h1 className="project-heading">
+            <h1 className="project-heading" style={{ textAlign: "center", marginBottom: "30px" }}>
               Professional <strong className="purple">Skillset </strong>
             </h1>
             <Techstack />
-            
-            {/* Tools I Use */}
-            <h1 className="project-heading" style={{ paddingTop: "50px" }}>
+          </Col>
+
+          {/* Right Column for Tools */}
+          <Col
+            lg={6}
+            md={12}
+            style={{
+              justifyContent: "center",
+              paddingTop: "20px",
+              paddingBottom: "30px",
+            }}
+          >
+            <h1 className="project-heading" style={{ textAlign: "center", marginBottom: "30px" }}>
               <strong className="purple">Tools</strong> I use
             </h1>
             <Toolstack />
           </Col>
 
-          {/* Right Column for About Me */}
-          <Col
-            md={6}
-            style={{
-              justifyContent: "center",
-              paddingTop: "30px",
-              paddingBottom: "50px",
-            }}
-          >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+        </Row>
+
+        {/* About Me Section - Full Width Below Skills */}
+        <Row style={{ justifyContent: "center", marginBottom: "30px" }}>
+          <Col lg={8} md={10} sm={12}>
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px", textAlign: "center" }}>
               <strong className="purple">Get to know me</strong>
             </h1>
             <Aboutcard />
           </Col>
-
         </Row>
 
         <Github />

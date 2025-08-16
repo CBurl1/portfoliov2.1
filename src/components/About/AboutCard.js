@@ -7,13 +7,13 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "left" }}>
-            I'm <span className="purple">Collin Burleigh</span>, I live in <span className="purple">Salt Lake City, Utah.</span>
+            I'm <span className="purple">Collin Burleigh</span>, a <span className="purple">Software Engineer</span> specializing in <span className="purple">SaaS and desktop applications</span>.
             <br />
             <br />
-            As a <span className="purple">Full-Stack Developer</span> trained at <span className="purple">The Flatiron School</span>, my path to tech was unique, shaped by a dream of playing baseball. This journey taught me leadership, teamwork, and perseverance.
+            As a freelance developer since June 2023, I've built and supported applications serving <span className="purple">100+ customers</span>. I'm the solo developer behind <span className="purple">M2 InstaCount</span> and <span className="purple">AutoSortPro</span>, which have improved efficiency by 30-35% for businesses.
             <br />
             <br />
-            After shifting from sports to tech, I found my passion in coding. It offered a blend of creativity and problem-solving that I hadn't found elsewhere. This led me to pivot my career towards software development, embracing the challenges and opportunities it presents.
+            My expertise spans <span className="purple">full-stack development</span>, from building robust APIs with Python and Flask to creating responsive frontends with React. I also have experience with <span className="purple">AI integrations</span>, having worked with OpenAI APIs and built smart automation solutions.
             <br />
             <br />
             <span className="purple">Outside of work, my passions include:</span>
