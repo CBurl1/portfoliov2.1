@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import journal from "../../Assets/Projects/wellness-journal.png";
 import m2 from "../../Assets/Projects/m2-instacount.png";
-import autosort from "../../Assets/Projects/m2-instacount.png"; // Placeholder - replace with AutoSortPro image
+import autosort from "../../Assets/Projects/AutoSortPro.png";
 
 function Projects() {
   return (
