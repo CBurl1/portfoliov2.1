@@ -21,23 +21,24 @@ function Home2() {
               About <span className="purple"> Me </span>
             </h1>
             <p className="home-about-body">
-            Skilled <span className="purple"> Full-Stack Developer </span>
-             and certified <span className="purple">SCRUM</span> master with a knack for turning complex challenges into scalable web solutions. Experience in working with LLMS. The solo developer behind M2 InstaCount - a web app that transforms inventory management and receiving processes for Magento 2 store owners. Passionately pursuing new technological advancements to drive innovation.
+            Technical professional experienced in designing, developing, and maintaining <span className="purple">SaaS and desktop applications</span>. 
+            Skilled in developing scalable applications, building robust APIs, and optimizing performance across back-end, front-end, and cloud environments. 
+            The solo developer behind <span className="purple">M2 InstaCount</span> and <span className="purple">AutoSortPro</span> - applications serving 100+ customers.
             <br />
-            <br />I am proficient working with a large amount of tech including
+            <br />I am proficient working with a comprehensive tech stack including
               <i>
-                <b className="purple"> Python, React, Javascript, Flask, MongoDB and various SQL databases. </b>
+                <b className="purple"> Python, Flask, JavaScript, ReactJS, SQL, PostgreSQL, SQLite, AWS, and Electron. </b>
               </i>
               <br />
               <br />
-              I am interested in building new&nbsp;
+              I specialize in building&nbsp;
               <i>
-                <b className="purple">Web Applications</b>. Specifically,
-                those relating to{" "}
+                <b className="purple">SaaS Applications</b> and{" "}
                 <b className="purple">
-                  E-commerce and AI.
+                  AI-powered solutions
                 </b>
               </i>
+              , with experience integrating OpenAI API, Auth0, Stripe API, and AWS services.
               <br />
             </p>
           </Col>
