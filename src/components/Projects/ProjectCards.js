@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { BsPlayCircle } from "react-icons/bs";
 
 function ProjectCards(props) {
   return (
@@ -35,6 +36,19 @@ function ProjectCards(props) {
           >
             <CgWebsite /> &nbsp;
             {props.buttonText || "Demo"}
+          </Button>
+        )}
+        
+        {/* Render second demo button (for video demos) */}
+        {!props.isBlog && props.videoDemo && (
+          <Button
+            variant="primary"
+            href={props.videoDemo}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <BsPlayCircle /> &nbsp;
+            Demo Video
           </Button>
         )}
       </Card.Body>
