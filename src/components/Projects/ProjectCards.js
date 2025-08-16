@@ -7,13 +7,46 @@ import { BsPlayCircle } from "react-icons/bs";
 
 function ProjectCards(props) {
   return (
-    <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
-      <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "left" }}>
+    <Card className="project-card-view" style={{ width: "100%" }}>
+      <Card.Img 
+        variant="top" 
+        src={props.imgPath} 
+        alt="card-img" 
+        style={{ 
+          height: "200px", 
+          objectFit: "cover",
+          objectPosition: "center"
+        }} 
+      />
+      <Card.Body style={{ 
+        padding: "1.25rem", 
+        display: "flex", 
+        flexDirection: "column",
+        flex: "1"
+      }}>
+        <Card.Title style={{ 
+          marginBottom: "1rem", 
+          fontSize: "1.1rem", 
+          lineHeight: "1.3",
+          height: "2.6rem",
+          display: "flex",
+          alignItems: "center"
+        }}>
+          {props.title}
+        </Card.Title>
+        <Card.Text style={{ 
+          textAlign: "left", 
+          fontSize: "0.9rem", 
+          lineHeight: "1.4", 
+          marginBottom: "1.5rem",
+          flex: "1",
+          minHeight: "140px",
+          display: "flex",
+          alignItems: "flex-start"
+        }}>
           {props.description}
         </Card.Text>
+        <div style={{ marginTop: "auto" }}>
         
         {/* Render GitHub button only if showGitHub prop is true */}
         {props.showGitHub !== false && (
@@ -51,6 +84,7 @@ function ProjectCards(props) {
             Demo Video
           </Button>
         )}
+        </div>
       </Card.Body>
     </Card>
   );

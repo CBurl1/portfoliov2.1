@@ -18,12 +18,12 @@ function Projects() {
           Check out some of the applications I've made lately
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card" style={{ display: "flex", alignItems: "stretch" }}>
             <ProjectCard
               imgPath={autosort}
               isBlog={false}
               title="AutoSortPro – AI-Powered File Organization"
-              description="Intelligent file management application that uses AI to automatically organize, tag, and categorize documents, images, and screenshots. Features smart tagging, title generation, content summarization, and intelligent search capabilities. Supports multiple file formats (JPEG, PNG, PDF, DOCX, etc.) with export options to Obsidian and Markdown. Built with Electron, FastAPI, React, and PostgreSQL, serving 95+ trusted users who have reclaimed 120+ hours through smart automation."
+              description="AI-powered desktop application that automatically organizes, tags, and categorizes files using intelligent analysis. Features smart tagging, title generation, and content summarization. Supports multiple formats with export to Obsidian and Markdown. Built with Electron, FastAPI, React, and PostgreSQL. Serving 95+ users who have reclaimed 120+ hours through automation."
               showGitHub={false}
               demoLink="https://autosortpro.com"
               buttonText="Live"
@@ -31,12 +31,12 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card" style={{ display: "flex", alignItems: "stretch" }}>
             <ProjectCard
               imgPath={m2}
               isBlog={false}
               title="M2 InstaCount – Magento 2 Inventory Management"
-              description="My first project as a solo developer, M2 InstaCount is a web app built with React, Flask, PostgreSQL, and JWT to streamline inventory management for Magento 2 stores. The app enables real-time tracking of stock, barcode scanning, and SKU identification, allowing store owners to compare actual versus expected inventory levels. With advanced error handling to manage discrepancies and a receiving tool that generates CSVs for supplier comparisons, M2 InstaCount provides an efficient and accurate solution to inventory management challenges."
+              description="Web application that streamlines inventory management for Magento 2 stores. Features real-time stock tracking, barcode scanning, SKU identification, and inventory comparison tools. Includes advanced error handling and CSV generation for supplier comparisons. Built with React, Flask, PostgreSQL, and JWT authentication. Improves efficiency by 30-35% and reduces verification time by 50%."
               showGitHub={false}
               demoLink="https://m2instacount.com"
               buttonText="Live"
@@ -44,12 +44,12 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card" style={{ display: "flex", alignItems: "stretch" }}>
             <ProjectCard
               imgPath={journal}
               isBlog={false}
               title="AI Powered Voice Wellness Journal"
-              description="Funded by an OpenHome grant, this application is powered by a LLM and has a conversation with the user relating to their wellness. The journal adapts over time in order to ask better questions. The journal is sent to the user via text with the Twilio API. The journal will run off of OpenHome's smart speaker once the hardware is developed. Built with Python."
+              description="AI-powered wellness application that conducts intelligent conversations about user wellness. The journal adapts over time to ask more relevant questions and sends personalized entries via SMS using Twilio API. Designed for OpenHome's smart speaker platform. Built with Python and powered by advanced language models. Funded by OpenHome grant."
               showGitHub={false}
               videoDemo="https://www.loom.com/share/a29cbce183324c6fa0dc31b8ea0389e8"
             />
