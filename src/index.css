@@ -147,6 +147,9 @@ h1, h2, h3, h4, h5, h6,
 
 /* Utility */
 .gradient-text {
+  isolation: isolate;
+  -webkit-forced-color-adjust: none;
+  forced-color-adjust: none;
   background: var(--gradient-primary);
   -webkit-background-clip: text;
   background-clip: text;
