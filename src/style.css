@@ -310,29 +310,10 @@ a:focus,
   color: var(--text-primary);
 }
 
-/* Gradient text: forced-color-adjust + isolation help Brave/Chromium when
-   background-clip:text is flattened (not a cache issue). */
-.main-name {
-  isolation: isolate;
-  -webkit-forced-color-adjust: none;
-  forced-color-adjust: none;
-  background: var(--gradient-primary);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent !important;
-  -webkit-text-fill-color: transparent;
-}
+/* main-name + Typewriter colors live in index.css (Brave-safe, no background-clip) */
 
 .Typewriter__wrapper {
-  isolation: isolate;
-  -webkit-forced-color-adjust: none;
-  forced-color-adjust: none;
   font-size: 2.1em !important;
-  background: var(--gradient-primary);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent !important;
-  -webkit-text-fill-color: transparent;
   font-weight: 700 !important;
 }
 .Typewriter__cursor {
