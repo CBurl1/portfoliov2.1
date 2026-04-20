@@ -145,17 +145,35 @@ h1, h2, h3, h4, h5, h6,
   letter-spacing: -0.015em;
 }
 
-/* Brand highlight text — solid fill + glow (Brave breaks background-clip:text) */
+/* =========================================================
+   Brand highlight text (default = gradient, fallback = lavender glow)
+   ========================================================= */
+
+/* Default: gradient via background-clip:text */
 .gradient-text,
 .main-name,
 .Typewriter__wrapper {
-  background: none !important;
-  -webkit-background-clip: unset !important;
-  background-clip: unset !important;
-  -webkit-text-fill-color: unset !important;
-  color: #e9d5ff !important;
-  text-shadow:
-    0 0 28px rgba(168, 85, 247, 0.55),
-    0 0 10px rgba(192, 132, 252, 0.4),
-    0 0 1px rgba(192, 132, 252, 0.95);
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent;
+  -webkit-forced-color-adjust: none;
+  forced-color-adjust: none;
+}
+
+/* Fallback: browsers / hardened-privacy modes where background-clip:text
+   fails (e.g. Brave + Force Dark). Renders the requested lavender + glow. */
+@supports not ((-webkit-background-clip: text) or (background-clip: text)) {
+  .gradient-text,
+  .main-name,
+  .Typewriter__wrapper {
+    background: none !important;
+    color: #e9d5ff !important;
+    -webkit-text-fill-color: #e9d5ff !important;
+    text-shadow:
+      0 0 28px rgba(168, 85, 247, 0.55),
+      0 0 10px rgba(192, 132, 252, 0.4),
+      0 0 1px rgba(192, 132, 252, 0.95);
+  }
 }

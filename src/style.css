@@ -2,12 +2,17 @@
    Global
    ========================================================= */
 html {
-  --imp-text-color: #c084fc;
+  --imp-text-color: #e9d5ff;
   scroll-behavior: smooth;
 }
 
 .purple {
   color: var(--imp-text-color) !important;
+  -webkit-forced-color-adjust: none;
+  forced-color-adjust: none;
+  text-shadow:
+    0 0 18px rgba(168, 85, 247, 0.35),
+    0 0 6px rgba(192, 132, 252, 0.28);
 }
 
 button:focus,
@@ -813,6 +818,31 @@ a:focus,
     grid-template-columns: 1fr;
   }
 }
+
+/* Mobile: hero spacing — top padding was stacking (section + content + header = huge gap under nav) */
+@media (max-width: 767px) {
+  .home-header {
+    padding-top: 52px !important;
+  }
+  .home-section {
+    padding-top: 8px !important;
+    padding-bottom: 0 !important;
+  }
+  .home-content {
+    padding: 2.25rem 0 0 !important;
+  }
+  .home-about-section {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+  .home-about-description {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+  }
+  .home-about-body {
+    padding-top: 16px !important;
+  }
+}
 .stat-card {
   text-align: center;
   padding: 22px 18px;
@@ -836,8 +866,20 @@ a:focus,
   background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
+  -webkit-forced-color-adjust: none;
+  forced-color-adjust: none;
   line-height: 1;
   margin-bottom: 6px;
+}
+@supports not ((-webkit-background-clip: text) or (background-clip: text)) {
+  .stat-card .stat-value {
+    background: none;
+    color: #e9d5ff;
+    -webkit-text-fill-color: #e9d5ff;
+    text-shadow:
+      0 0 22px rgba(168, 85, 247, 0.5),
+      0 0 6px rgba(192, 132, 252, 0.35);
+  }
 }
 .stat-card .stat-label {
   color: var(--text-muted);
@@ -1548,7 +1590,19 @@ a:focus,
   background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
+  -webkit-forced-color-adjust: none;
+  forced-color-adjust: none;
   line-height: 1;
+}
+@supports not ((-webkit-background-clip: text) or (background-clip: text)) {
+  .metric-strip__value {
+    background: none;
+    color: #e9d5ff;
+    -webkit-text-fill-color: #e9d5ff;
+    text-shadow:
+      0 0 22px rgba(168, 85, 247, 0.5),
+      0 0 6px rgba(192, 132, 252, 0.35);
+  }
 }
 .metric-strip__label {
   margin-top: 4px;
