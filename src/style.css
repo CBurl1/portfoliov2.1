@@ -831,6 +831,12 @@ a:focus,
   .home-content {
     padding: 2.25rem 0 0 !important;
   }
+  /* About / Projects / Resume: match first line to home hero (eyebrow is inside .page-header which has 10px padding-top) */
+  .project-section,
+  .about-section,
+  .resume-section {
+    padding-top: calc(8px + 2.25rem + 52px - 10px) !important;
+  }
   .home-about-section {
     padding-top: 40px !important;
     padding-bottom: 40px !important;
