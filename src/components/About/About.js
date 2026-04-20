@@ -1,64 +1,111 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
+import PageHeader from "../PageHeader";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import Toolstack from "./Toolstack";
+import ExperienceTimeline from "./ExperienceTimeline";
+import OutsideWork from "./OutsideWork";
 
 function About() {
   return (
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        {/* Skills and Tools Section - Side by Side at Top */}
-        <Row style={{ justifyContent: "center", padding: "20px 0", marginBottom: "40px" }}>
-          
-          {/* Left Column for Professional Skillset */}
-          <Col
-            lg={6}
-            md={12}
-            style={{
-              justifyContent: "center",
-              paddingTop: "20px",
-              paddingBottom: "30px",
-            }}
-          >
-            <h1 className="project-heading" style={{ textAlign: "center", marginBottom: "30px" }}>
-              Professional <strong className="purple">Skillset </strong>
-            </h1>
-            <Techstack />
-          </Col>
+        <PageHeader
+          eyebrow="About · Collin Burleigh"
+          title="Technical Support Engineer"
+          accent="shipping & supporting SaaS"
+          subtitle="Hands-on engineer who builds, ships, and supports the software end-to-end — from the first ticket to the fix in production."
+        />
 
-          {/* Right Column for Tools */}
-          <Col
-            lg={6}
-            md={12}
-            style={{
-              justifyContent: "center",
-              paddingTop: "20px",
-              paddingBottom: "30px",
-            }}
-          >
-            <h1 className="project-heading" style={{ textAlign: "center", marginBottom: "30px" }}>
-              <strong className="purple">Tools</strong> I use
-            </h1>
-            <Toolstack />
-          </Col>
+        <section className="about-block">
+          <div style={{ textAlign: "center" }}>
+            <span className="section-eyebrow">01 · Bio</span>
+          </div>
+          <Row style={{ justifyContent: "center" }}>
+            <Col lg={9} md={11} sm={12}>
+              <Aboutcard />
+            </Col>
+          </Row>
+        </section>
 
-        </Row>
+        <section className="about-block">
+          <div style={{ textAlign: "center" }}>
+            <span className="section-eyebrow">02 · Experience</span>
+          </div>
+          <h2 className="project-heading" style={{ textAlign: "center" }}>
+            Where I've <strong className="purple">worked</strong>
+          </h2>
+          <Row style={{ justifyContent: "center" }}>
+            <Col lg={10} md={11} sm={12}>
+              <ExperienceTimeline />
+            </Col>
+          </Row>
+        </section>
 
-        {/* About Me Section - Full Width Below Skills */}
-        <Row style={{ justifyContent: "center", marginBottom: "30px" }}>
-          <Col lg={8} md={10} sm={12}>
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px", textAlign: "center" }}>
-              <strong className="purple">Get to know me</strong>
-            </h1>
-            <Aboutcard />
-          </Col>
-        </Row>
+        <section className="about-block">
+          <div style={{ textAlign: "center" }}>
+            <span className="section-eyebrow">03 · Skillset</span>
+          </div>
+          <Row style={{ justifyContent: "center" }}>
+            <Col
+              lg={6}
+              md={12}
+              style={{ paddingTop: "20px", paddingBottom: "30px" }}
+            >
+              <h2
+                className="project-heading"
+                style={{ textAlign: "center", marginBottom: "30px" }}
+              >
+                Professional <strong className="purple">Skillset</strong>
+              </h2>
+              <Techstack />
+            </Col>
 
-        <Github />
+            <Col
+              lg={6}
+              md={12}
+              style={{ paddingTop: "20px", paddingBottom: "30px" }}
+            >
+              <h2
+                className="project-heading"
+                style={{ textAlign: "center", marginBottom: "30px" }}
+              >
+                <strong className="purple">Tools</strong> I use
+              </h2>
+              <Toolstack />
+            </Col>
+          </Row>
+        </section>
+
+        <section className="about-block">
+          <div style={{ textAlign: "center" }}>
+            <span className="section-eyebrow">04 · Outside of work</span>
+          </div>
+          <h2 className="project-heading" style={{ textAlign: "center" }}>
+            Things I <strong className="purple">care about</strong>
+          </h2>
+          <Row style={{ justifyContent: "center" }}>
+            <Col lg={10} md={11} sm={12}>
+              <OutsideWork />
+            </Col>
+          </Row>
+        </section>
+
+        <section className="about-block">
+          <div style={{ textAlign: "center" }}>
+            <span className="section-eyebrow">05 · Activity</span>
+          </div>
+          <h2 className="project-heading" style={{ textAlign: "center" }}>
+            My <strong className="purple">commits</strong>
+          </h2>
+          <div className="github-frame">
+            <Github />
+          </div>
+        </section>
       </Container>
     </Container>
   );

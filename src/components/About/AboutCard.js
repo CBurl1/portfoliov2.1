@@ -1,39 +1,34 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
 
 function AboutCard() {
   return (
-    <Card className="quote-card-view">
-      <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "left" }}>
-            I'm <span className="purple">Collin Burleigh</span>, a <span className="purple">Software Engineer</span> specializing in <span className="purple">SaaS and desktop applications</span>.
-            <br />
-            <br />
-            As a freelance developer since June 2023, I've built and supported applications serving <span className="purple">100+ customers</span>. I'm the solo developer behind <span className="purple">M2 InstaCount</span> and <span className="purple">AutoSortPro</span>, which have improved efficiency by 30-35% for businesses.
-            <br />
-            <br />
-            My expertise spans <span className="purple">full-stack development</span>, from building robust APIs with Python and Flask to creating responsive frontends with React. I also have experience with <span className="purple">AI integrations</span>, having worked with OpenAI APIs and built smart automation solutions.
-            <br />
-            <br />
-            <span className="purple">Outside of work, my passions include:</span>
-          </p>
-          <ul>
-            <li className="about-activity">
-            <span className="purple">Global Exploration:</span> Traveling to over 20 countries has broadened my perspective, enriching my understanding of diverse cultures and landscapes.
-            </li>
-            <br />
-            <li className="about-activity">
-            <span className="purple">Skiing:</span> A newfound love, skiing connects me with nature and offers thrilling challenges.
-            </li>
-            <br />
-            <li className="about-activity">
-            <span className="purple">Coaching:</span> Coaching youth baseball allows me to give back and share the lessons learned from my own experiences.
-            </li>
-          </ul>
-        </blockquote>
-      </Card.Body>
-    </Card>
+    <div className="about-card">
+      <p>
+        I'm <span className="purple">Collin Burleigh</span>, a{" "}
+        <span className="purple">Technical Support Engineer</span> focused on{" "}
+        <span className="purple">SaaS and ecommerce systems</span> in production.
+      </p>
+      <p>
+        Since June 2023 I've built and supported applications used by{" "}
+        <span className="purple">~140 users</span>, handling onboarding, bug reports, and ongoing
+        product issues. I'm the developer behind <span className="purple">M2 InstaCount</span> and{" "}
+        <span className="purple">AutoSortPro</span>, where I've diagnosed and resolved issues
+        across authentication, payments, file processing, and API-driven workflows with{" "}
+        <span className="purple">Auth0, Stripe, and AWS</span>.
+      </p>
+      <p>
+        Alongside my freelance work, I'm a{" "}
+        <span className="purple">Technical Systems Engineer</span> for a family Magento ecommerce
+        business processing <span className="purple">75+ daily orders</span>, where I support
+        fulfillment, receiving, inventory, and catalog workflows, troubleshoot SKU and inventory
+        discrepancies, and make day-to-day Magento admin and storefront updates.
+      </p>
+      <p>
+        I'm strong at reproducing bugs, investigating issues with API responses, logs, and
+        database checks, and closing tickets clearly for non-technical users — and I write the
+        documentation that reduces repeat questions.
+      </p>
+    </div>
   );
 }
 

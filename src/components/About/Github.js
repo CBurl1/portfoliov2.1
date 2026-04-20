@@ -1,22 +1,18 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
-import { Row } from "react-bootstrap";
 
 function Github() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-      <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-        My <strong className="purple">Commits:</strong>
-      </h1>
+    <div className="github-calendar">
       <GitHubCalendar
         username="cburl1"
-        blockSize={15}
+        blockSize={14}
         blockMargin={5}
         color="#c084f5"
-        fontSize={16}
+        fontSize={14}
       />
-    </Row>
+    </div>
   );
 }
-// update later 3
+
 export default Github;

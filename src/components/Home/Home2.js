@@ -1,19 +1,14 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-  AiOutlineMail,
-} from "react-icons/ai";
+import { AiFillGithub, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import "./Home.css"
+import AboutVisual from "./AboutVisual";
+import "./Home.css";
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
-          <div class="horizontal-line"></div>
+      <div className="horizontal-line"></div>
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
@@ -21,36 +16,56 @@ function Home2() {
               About <span className="purple"> Me </span>
             </h1>
             <p className="home-about-body">
-            Technical professional experienced in designing, developing, and maintaining <span className="purple">SaaS and desktop applications</span>. 
-            Skilled in developing scalable applications, building robust APIs, and optimizing performance across back-end, front-end, and cloud environments. 
-            The solo developer behind <span className="purple">M2 InstaCount</span> and <span className="purple">AutoSortPro</span> - applications serving 100+ customers.
-            <br />
-            <br />I am proficient working with a comprehensive tech stack including
-              <i>
-                <b className="purple"> Python, Flask, JavaScript, ReactJS, SQL, PostgreSQL, SQLite, AWS, and Electron. </b>
-              </i>
+              <span className="purple">Technical Support Engineer</span> with hands-on experience
+              supporting <span className="purple">SaaS and ecommerce systems</span> in production.
+              I've supported roughly <span className="purple">140 users</span> across self-built
+              applications — handling onboarding, issue resolution, workflow questions, and product
+              fixes.
               <br />
               <br />
-              I specialize in building&nbsp;
+              I work fluently across the stack, using{" "}
               <i>
-                <b className="purple">SaaS Applications</b> and{" "}
                 <b className="purple">
-                  AI-powered solutions
+                  Python, Flask, FastAPI, JavaScript, React, PostgreSQL, SQLite, and Electron
                 </b>
-              </i>
-              , with experience integrating OpenAI API, Auth0, Stripe API, and AWS services.
+              </i>{" "}
+              to reproduce bugs, investigate issues via API responses, logs, and database checks,
+              and ship fixes end-to-end.
               <br />
+              <br />
+              I'm experienced integrating{" "}
+              <i>
+                <b className="purple">Auth0, Stripe, OpenAI, Magento 2, and AWS</b>
+              </i>{" "}
+              (IAM, S3, SES, Rekognition) — and strong at closing tickets clearly for
+              non-technical users.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
+            <AboutVisual />
           </Col>
         </Row>
+
+        <Row>
+          <Col md={12}>
+            <div className="stats-row">
+              <div className="stat-card">
+                <div className="stat-value">~140</div>
+                <div className="stat-label">Users supported</div>
+              </div>
+              <div className="stat-card">
+                <div className="stat-value">2</div>
+                <div className="stat-label">SaaS products shipped &amp; supported</div>
+              </div>
+            </div>
+          </Col>
+        </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>Let's <span className="purple">Connect:</span></h1>
+            <h1>
+              Let's <span className="purple">Connect:</span>
+            </h1>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
@@ -58,6 +73,7 @@ function Home2() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
+                  aria-label="Email"
                 >
                   <AiOutlineMail />
                 </a>
@@ -67,7 +83,8 @@ function Home2() {
                   href="https://www.linkedin.com/in/burleighcollin/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
+                  aria-label="LinkedIn"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -77,19 +94,10 @@ function Home2() {
                   href="https://github.com/cburl1"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
+                  aria-label="GitHub"
                 >
                   <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/collin.burleigh"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>

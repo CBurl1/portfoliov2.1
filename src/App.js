@@ -4,12 +4,13 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
-import ResumeNew from './components/Resume/ResumeNew';
+import ResumeNew from "./components/Resume/ResumeNew";
+import Footer from "./components/Footer";
 import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Navigate
+  Navigate,
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
@@ -30,6 +31,7 @@ function App() {
   return (
     <Router>
       <Preloader load={load} />
+      <div className="grain-overlay" aria-hidden="true" />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
@@ -37,12 +39,14 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<ResumeNew/>} />
-          <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="/resume" element={<ResumeNew />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
 }
 
 export default App;
+

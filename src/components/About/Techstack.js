@@ -1,7 +1,13 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import { DiPython, DiJavascript1, DiReact, DiHtml5, DiCss3 } from "react-icons/di";
-import { SiPostgresql, SiFlask, SiSqlite, SiElectron, SiTailwindcss, SiAmazonaws } from "react-icons/si";
+import {
+  SiPostgresql,
+  SiFlask,
+  SiFastapi,
+  SiSqlite,
+  SiTailwindcss,
+} from "react-icons/si";
 
 function Techstack() {
   return (
@@ -23,16 +29,16 @@ function Techstack() {
         <p style={{ fontSize: 'small' }}>Flask</p>
       </Col>
       <Col xs={6} sm={4} lg={3} xl={2} className="tech-icons text-center">
+        <SiFastapi />
+        <p style={{ fontSize: 'small' }}>FastAPI</p>
+      </Col>
+      <Col xs={6} sm={4} lg={3} xl={2} className="tech-icons text-center">
         <SiPostgresql />
         <p style={{ fontSize: 'small' }}>PostgreSQL</p>
       </Col>
       <Col xs={6} sm={4} lg={3} xl={2} className="tech-icons text-center">
         <SiSqlite />
         <p style={{ fontSize: 'small' }}>SQLite</p>
-      </Col>
-      <Col xs={6} sm={4} lg={3} xl={2} className="tech-icons text-center">
-        <SiElectron />
-        <p style={{ fontSize: 'small' }}>Electron</p>
       </Col>
       <Col xs={6} sm={4} lg={3} xl={2} className="tech-icons text-center">
         <DiHtml5 />
@@ -45,10 +51,6 @@ function Techstack() {
       <Col xs={6} sm={4} lg={3} xl={2} className="tech-icons text-center">
         <SiTailwindcss />
         <p style={{ fontSize: 'small' }}>Tailwind</p>
-      </Col>
-      <Col xs={6} sm={4} lg={3} xl={2} className="tech-icons text-center">
-        <SiAmazonaws />
-        <p style={{ fontSize: 'small' }}>AWS</p>
       </Col>
     </Row>
   );
